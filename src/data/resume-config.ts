@@ -28,7 +28,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'email', label: 'b1jjouve@gmail.com' },
     { type: 'phone', label: '+33 6 03 45 60 69' },
     { type: 'location', label: 'Paris, France' },
-    { type: 'portfolio', label: 'Behance', href: 'https://www.behance.net/benjjouve' },
+    { type: 'website', label: 'Behance', href: 'https://www.behance.net/benjjouve' },
   ],
   skills: [
     {
