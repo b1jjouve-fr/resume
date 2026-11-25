@@ -146,7 +146,7 @@ const TECH_REGISTRY = {
   'esbuild': { color: '#FFCF00' },
   'Turbopack': { color: '#000000' },
   'Storybook': { color: '#FF4785' },
-  'Figma': { color: '#F24E1E' },
+  'AI Builder': { color: '#F24E1E' },
   'Stripe': { color: '#635BFF' },
 
   // ===== Testing =====

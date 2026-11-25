@@ -28,7 +28,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'email', label: 'b1jjouve@gmail.com' },
     { type: 'phone', label: '+33 6 03 45 60 69' },
     { type: 'location', label: 'Paris, France' },
-    { type: 'website', label: 'Behance', href: 'https://www.behance.net/benjjouve' },
+    { type: 'website', label: 'benjjouve.com', href: 'https://benjjouve.com' },
   ],
   skills: [
     {
@@ -69,11 +69,11 @@ export const resumeConfig: ResumeConfig = {
       title: { fr: 'Outils', en: 'Tools' },
       type: 'badges',
       items: [
+        { name: 'AI Builder' },
         { name: 'Figma' },
         { name: 'Adobe (PS, AI, IND)' },
         { name: 'Webflow' },
         { name: 'Notion' },
-        { name: 'AI Builder' },
         { name: 'Claude (AI assistant)' },
       ],
     },
@@ -89,7 +89,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Design produit de bout en bout pour des startups : discovery, parcours UX, UI, prototypage et structuration produit de 0 à 1.',
         en: 'End-to-end product design for startups: discovery, UX flows, UI, prototyping and product structuring from 0 to 1.',
       },
-      techs: ['Figma', 'Webflow', 'AI Builder'],
+      techs: ['AI Builder', 'Figma'],
       isHighlighted: true,
       details: {
         context: {
@@ -109,8 +109,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          fr: 'Figma / Webflow / Outils IA',
-          en: 'Figma / Webflow / AI tools',
+          fr: 'AI Builder / Figma / Outils IA',
+          en: 'AI Builder / Figma / AI tools',
         },
       },
     },
@@ -124,7 +124,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Lancement d\'une FoodTech : premier moteur de recherche de plats de restaurant basé sur l\'IA. Design produit (iOS/Android/WebApp), branding, stratégie utilisateur et acquisition.',
         en: 'Launched a FoodTech startup: first AI-based restaurant dish search engine. Product design (iOS/Android/WebApp), branding, user strategy and acquisition.',
       },
-      techs: ['Figma', 'AI Builder'],
+      techs: ['AI Builder', 'Figma', 'Webflow'],
       isHighlighted: true,
       details: {
         context: {
@@ -159,7 +159,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Direction du design de marque pour United Heroes (B2B) et Running Heroes (B2C). Création d\'applications sportives (running, cyclisme, natation) et gestion d\'une équipe de 2 designers.',
         en: 'Led brand design for United Heroes (B2B) and Running Heroes (B2C). Created sports apps (running, cycling, swimming) and managed a team of 2 designers.',
       },
-      techs: ['Figma', 'Adobe', 'Design Systems'],
+      techs: ['Figma', 'Webflow', 'Adobe', 'Design Systems'],
       isHighlighted: true,
       details: {
         context: {
@@ -217,38 +217,6 @@ export const resumeConfig: ResumeConfig = {
       },
     },
     {
-      id: 'fullsix',
-      company: { fr: 'Fullsix', en: 'Fullsix' },
-      role: { fr: 'Designer', en: 'Designer' },
-      type: { fr: 'CDI', en: 'Full-time' },
-      period: { fr: 'Mar 2011 - Sep 2012', en: 'Mar 2011 - Sep 2012' },
-      description: {
-        fr: 'Design et direction artistique pour des projets web clés : SFR, LCL, PMU, La Poste, Accor.',
-        en: 'Designed and art-directed key web projects for SFR, LCL, PMU, La Poste, Accor.',
-      },
-      techs: ['Adobe', 'HTML5', 'CSS3'],
-      details: {
-        context: {
-          fr: 'Agence digitale, équipe créative de 15+ personnes.',
-          en: 'Digital agency, creative team of 15+ people.',
-        },
-        tasks: {
-          fr: [
-            'Conception de campagnes digitales et d\'interfaces utilisateur.',
-            'Intégration HTML5/CSS3 pour des expériences interactives.',
-          ],
-          en: [
-            'Designed digital campaigns and user interfaces.',
-            'HTML5/CSS3 integration for interactive experiences.',
-          ],
-        },
-        env: {
-          fr: 'Adobe / HTML5 / CSS3',
-          en: 'Adobe / HTML5 / CSS3',
-        },
-      },
-    },
-    {
       id: 'madmix',
       company: { fr: 'Madmix Digital', en: 'Madmix Digital' },
       role: { fr: 'Designer', en: 'Designer' },
@@ -277,6 +245,38 @@ export const resumeConfig: ResumeConfig = {
         env: {
           fr: 'Adobe / Flash / HTML5',
           en: 'Adobe / Flash / HTML5',
+        },
+      },
+    },
+    {
+      id: 'fullsix',
+      company: { fr: 'Fullsix', en: 'Fullsix' },
+      role: { fr: 'Designer', en: 'Designer' },
+      type: { fr: 'CDI', en: 'Full-time' },
+      period: { fr: 'Mar 2011 - Sep 2012', en: 'Mar 2011 - Sep 2012' },
+      description: {
+        fr: 'Design et direction artistique pour des projets web clés : SFR, LCL, PMU, La Poste, Accor.',
+        en: 'Designed and art-directed key web projects for SFR, LCL, PMU, La Poste, Accor.',
+      },
+      techs: ['Adobe', 'HTML5', 'CSS3'],
+      details: {
+        context: {
+          fr: 'Agence digitale, équipe créative de 15+ personnes.',
+          en: 'Digital agency, creative team of 15+ people.',
+        },
+        tasks: {
+          fr: [
+            'Conception de campagnes digitales et d\'interfaces utilisateur.',
+            'Intégration HTML5/CSS3 pour des expériences interactives.',
+          ],
+          en: [
+            'Designed digital campaigns and user interfaces.',
+            'HTML5/CSS3 integration for interactive experiences.',
+          ],
+        },
+        env: {
+          fr: 'Adobe / HTML5 / CSS3',
+          en: 'Adobe / HTML5 / CSS3',
         },
       },
     },
