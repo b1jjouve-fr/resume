@@ -9,14 +9,14 @@ export const resumeConfig: ResumeConfig = {
       en: 'Freelance Product Designer',
     },
     subtitle: {
-      fr: '15 ans d\'expérience en design digital, dont 8 ans dans la SportTech',
-      en: '15 years of digital design experience, including 8 years in SportTech',
+      fr: '15+ ans d\'expérience en design digital, dont 8 ans dans la SportTech',
+      en: '15+ years of digital design experience, including 8 years in SportTech',
     },
     location: 'Paris, France',
   },
   seo: {
     title: 'Benjamin Jouve — Product Designer Freelance',
-    description: 'CV interactif de Benjamin Jouve, Product Designer spécialisé en UI/UX, branding et stratégie produit.',
+    description: 'CV interactif de Benjamin Jouve, Product Designer freelance spécialisé en UI/UX, branding et stratégie produit. 15+ ans d\'expérience.',
   },
   languages: {
     default: 'fr',
@@ -40,6 +40,8 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Branding' },
         { name: 'Product Design' },
         { name: 'Art Direction' },
+        { name: { fr: 'Discovery', en: 'Discovery' } },
+        { name: 'UX Writing' },
       ],
     },
     {
@@ -49,6 +51,10 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Product Thinking' },
         { name: 'Strategy' },
         { name: 'Storyboarding' },
+        { name: 'Growth' },
+        { name: 'SaaS' },
+        { name: 'E-commerce' },
+        { name: 'B2B / B2C' },
       ],
     },
     {
@@ -66,17 +72,54 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Figma' },
         { name: 'Adobe (PS, AI, IND)' },
         { name: 'Webflow' },
+        { name: 'Notion' },
         { name: 'AI Builder' },
+        { name: 'Claude (AI assistant)' },
       ],
     },
   ],
   experiences: [
     {
+      id: 'freelance-2025',
+      company: { fr: 'Freelance', en: 'Freelance' },
+      role: { fr: 'UI/UX - Product - Brand Designer', en: 'UI/UX - Product - Brand Designer' },
+      type: { fr: 'Indépendant', en: 'Freelance' },
+      period: { fr: 'Depuis juin 2025', en: 'Since Jun 2025' },
+      description: {
+        fr: 'Design produit de bout en bout pour des startups : discovery, parcours UX, UI, prototypage et structuration produit de 0 à 1.',
+        en: 'End-to-end product design for startups: discovery, UX flows, UI, prototyping and product structuring from 0 to 1.',
+      },
+      techs: ['Figma', 'Webflow', 'AI Builder'],
+      isHighlighted: true,
+      details: {
+        context: {
+          fr: 'Missions pour des startups early-stage et des sociétés établies.',
+          en: 'Engagements with early-stage startups and established companies.',
+        },
+        tasks: {
+          fr: [
+            'Design produit de bout en bout : discovery, parcours UX, UI, prototypage et structuration produit de 0 à 1.',
+            'Identité de marque et design produit pour Video Download Helper : rebranding complet et audit UX de l\'extension.',
+            'Design orienté acquisition et conversion pour un portefeuille de clients variés, de la startup early-stage à la société établie.',
+          ],
+          en: [
+            'End-to-end product design for startups: discovery, UX flows, UI, prototyping and product structuring from 0 to 1.',
+            'Brand identity and product design for Video Download Helper, including a full rebrand and a UX audit of their core extension.',
+            'Acquisition- and conversion-focused design for a diverse portfolio of clients, from early-stage startups to established companies.',
+          ],
+        },
+        env: {
+          fr: 'Figma / Webflow / Outils IA',
+          en: 'Figma / Webflow / AI tools',
+        },
+      },
+    },
+    {
       id: 'napp',
       company: { fr: 'Napp', en: 'Napp' },
       role: { fr: 'Co-fondateur & Product Designer', en: 'Co-founder & Product Designer' },
       type: { fr: 'Startup', en: 'Startup' },
-      period: { fr: 'Depuis mai 2023', en: 'Since May 2023' },
+      period: { fr: 'Mai 2023 - Mai 2025', en: 'May 2023 - May 2025' },
       description: {
         fr: 'Lancement d\'une FoodTech : premier moteur de recherche de plats de restaurant basé sur l\'IA. Design produit (iOS/Android/WebApp), branding, stratégie utilisateur et acquisition.',
         en: 'Launched a FoodTech startup: first AI-based restaurant dish search engine. Product design (iOS/Android/WebApp), branding, user strategy and acquisition.',
@@ -109,7 +152,7 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'sportheroes',
       company: { fr: 'Sportheroes', en: 'Sportheroes' },
-      role: { fr: 'Head of Brands / Product Design', en: 'Head of Brands / Product Design' },
+      role: { fr: 'Product Designer & Head of Brand Design', en: 'Product Designer & Head of Brand Design' },
       type: { fr: 'CDI', en: 'Full-time' },
       period: { fr: 'Nov 2015 - Mai 2023', en: 'Nov 2015 - May 2023' },
       description: {
